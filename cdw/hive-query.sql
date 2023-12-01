@@ -1,1 +1,1 @@
-SELECT * FROM my_table LIMIT 10;
+SELECT * FROM tokenized_access_logs LIMIT 10;
