@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import split, regexp_extract, regexp_replace, col
+from pyspark.sql.functions import regexp_extract, regexp_replace
 import sys
 import os
 
