@@ -1,0 +1,6 @@
+security.protocol=SASL_SSL
+sasl.mechanism=GSSAPI
+sasl.kerberos.service.name=kafka
+sasl.jaas.config=com.sun.security.auth.module.Krb5LoginModule required useTicketCache=true;
+ssl.truststore.location=/var/lib/cloudera-scm-agent/agent-cert/cm-auto-global_truststore.jks
+
